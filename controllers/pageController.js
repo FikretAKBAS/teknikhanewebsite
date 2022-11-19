@@ -18,4 +18,3 @@ exports.GetAddNewHBSPage = (req, res) => {
     page_name: 'newmemberpagedfgdfg',
   });
 };
-dfgdsfgsdfgdsfgdfgdfghdfghdfghdfghdfghdfghdfghdfghfdgh;
