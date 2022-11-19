@@ -13,9 +13,3 @@ exports.getNewMemberPage = (req, res) => {
     page_name: 'newmemberpage',
   });
 };
-exports.GetAddNewHBSPage = (req, res) => {
-  res.status(200).render('newmemberpage', {
-    page_name: 'newmemberpagedfgdfg',
-  });
-};
-dfgdsfgsdfgdsfgdfgdfghdfghdfghdfghdfghdfghdfghdfghfdgh;
