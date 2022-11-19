@@ -18,3 +18,4 @@ exports.GetAddNewHBSPagee = (req, res) => {
     page_name: 'newmemberpagedfgdfg',
   });
 };
+deneme;
