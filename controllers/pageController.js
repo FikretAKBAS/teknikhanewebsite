@@ -8,3 +8,8 @@ exports.getMeetingsPage = (req, res) => {
     page_name: 'meetings',
   });
 };
+exports.getNewMemberPage = (req, res) => {
+  res.status(200).render('newmemberpage', {
+    page_name: 'newmemberpage',
+  });
+};
