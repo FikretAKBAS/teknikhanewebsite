@@ -1946,3 +1946,29 @@ responsive
   }
 
 }
+
+.fa {
+  margin: -30px;
+  padding: 45px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.footer ul li {
+  display: inline-block;
+  float: none;
+  clear: none;
+  margin: 25px;
+  padding: 25px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#science p {
+  font-size: 18px;
+}
