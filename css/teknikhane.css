@@ -1947,11 +1947,6 @@ responsive
 
 }
 
-@media (max-width: 900px) {
-  .sub-header .right-icons {
-    visibility: hidden;
-  }
-}
 
 .fa {
   margin: -30px;
@@ -1977,4 +1972,33 @@ responsive
 
 #science p {
   font-size: 18px;
+}
+
+.main-nav .logo #aboutuslogo {
+  width: 250px;
+  float: left;
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.menu-trigger {
+  margin-top: 18px;
+}
+
+@media (min-width: 400px) {
+  .main-nav .logo #aboutuslogo {
+    width: 250px;
+    float: left;
+    position: relative;
+    left: -10px;
+    top: 45px;
+  }
+
+  .sub-header .right-icons {
+    width: 350px;
+    height: 10px;
+    margin-left: -40px;
+    margin-top: -35px;
+  }
 }
