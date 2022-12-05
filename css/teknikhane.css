@@ -1991,9 +1991,8 @@ responsive
 @media (max-width: 768px) {
   .main-nav .teknikhanelogo #teknikhanelogo {
     display: flex;
-
-    margin-left: -50px;
-    padding-left: 10px;
+    margin-left: 50px;
+    padding-left: 5px;
     margin-top: 2rem;
   }
 
