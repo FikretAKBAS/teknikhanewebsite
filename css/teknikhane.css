@@ -154,7 +154,7 @@ body {
 
 a {
   text-decoration: none !important;
-  color: #3CF;
+  color: white;
 }
 
 a:hover {
@@ -1948,10 +1948,20 @@ responsive
 }
 
 
-.fa {
+.right-icons .fa {
   margin: -30px;
   padding: 50px;
-  font-size: 30px;
+  font-size: 28px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.footer .fa {
+  margin: -30px;
+  padding: 50px;
+  font-size: 35px;
   width: 15px;
   text-align: center;
   text-decoration: none;
