@@ -193,7 +193,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: rgb(0, 0, 0);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -1429,7 +1429,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/meetings-bg.jpg);
+  /* background-image: url(../images/circuit2); */
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
