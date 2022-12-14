@@ -1539,7 +1539,8 @@ section.contact-us .right-info ul li span {
   text-align: center;
   margin-top: 140px;
   border-top: 1px solid rgba(250, 250, 250, 0.15);
-  padding: 50px 0px;
+  padding: 70px 0px;
+
 }
 
 .footer p {
@@ -1958,16 +1959,6 @@ responsive
 
 }
 
-.footer .fa {
-  margin: -30px;
-  padding: 50px;
-  font-size: 35px;
-  width: 15px;
-  text-align: center;
-  text-decoration: none;
-
-}
-
 .footer ul li {
   display: inline-block;
   float: none;
@@ -2016,4 +2007,82 @@ responsive
     margin-top: -0.75rem;
   }
 
+}
+
+.footer .fa {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h5 {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h5::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #eee;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffff;
+  display: block;
+  transition: all 0.3 ease;
+  -webkit-transition: all 0.3 ease;
+  -moz-transition: all 0.3 ease;
+  -ms-transition: all 0.3 ease;
+  -o-transition: all 0.3 ease;
+}
+
+.footer-col ul li a:hover {
+  color: orange;
+  padding-left: 4px;
+}
+
+@media(max-width:767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:574px) {
+  .footer-col {
+    width: 100%;
+  }
 }
