@@ -157,8 +157,17 @@ a {
   color: white;
 }
 
+#meetings .down-content p a {
+  text-decoration: none !important;
+  color: blue;
+}
+
 a:hover {
-  color: #FC3;
+  color: #f5a425;
+}
+
+#share-activity .fa:hover {
+  color: blue;
 }
 
 h1,
@@ -1561,7 +1570,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/meeting-01.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
