@@ -1074,7 +1074,6 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content .date {
-  float: left;
   text-align: center;
   display: inline-block;
   margin-right: 20px;
@@ -1210,7 +1209,7 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/meeting-01.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
