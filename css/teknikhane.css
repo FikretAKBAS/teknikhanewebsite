@@ -168,6 +168,7 @@ a:hover {
 
 #share-activity .fa:hover {
   color: blue;
+
 }
 
 h1,
@@ -1155,26 +1156,26 @@ section.apply-now .item p {
 .accordions {
   border-radius: 20px;
   padding: 40px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   margin-left: 45px;
 }
 
 .accordions .accordion {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .accordions .last-accordion {
-  border-bottom: none;
+  border-bottom: 0.5px solid rgb(255, 255, 255);
 }
 
 .accordion-head {
   padding: 20px;
   font-size: 18px;
   font-weight: 700;
-  color: #1f272b;
+  color: #000000;
   cursor: pointer;
   transition: color 200ms ease-in-out;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 @media screen and (min-width: 768px) {
@@ -1190,7 +1191,7 @@ section.apply-now .item p {
 }
 
 .accordion-head.is-open {
-  color: #f5a425;
+  color: #000000;
   border-bottom: none;
 }
 
@@ -1218,7 +1219,7 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/meeting-01.jpg);
+  background-image: url(../images/meetings-bg.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1366,7 +1367,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-color: #000000;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1417,7 +1418,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/meetings-bg.jpg);
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
