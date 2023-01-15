@@ -635,6 +635,7 @@ header
 .header-area.header-sticky {
   min-height: 90px;
   background-color: #1F262E;
+
 }
 
 .header-area .nav {
@@ -1794,7 +1795,7 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content .share ul li a:hover {
-  color: #f5a425;
+  color: #3000f2;
 }
 
 /* Meeting item column */

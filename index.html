@@ -41,8 +41,8 @@
             <p><em>Bilim</em> Teknik<em> İlim</em> ve İrfan</p>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-4 d-sm-none d-lg-block">
-          <div class="right-icons">
+        <div class="col-lg-4 d-sm-block">
+          <div class="right-icons d-flex justify-content-between">
             <ul>
               <li>
                 <a href="https://tr-tr.facebook.com/teknikhaneder/"><i class="fa fa-facebook"></i></a>
@@ -138,7 +138,8 @@
                 <ul class="sub-menu">
                   <li><a href="./views/Volunteer/beavolunteer.html">Üyelik Formu</a></li>
                   <li><a href="./views/Volunteer/donate.html">Bağış</a></li>
-                  <li><a href="/views/Volunteer/sponsorship.html">Sponsorluk</a></li>
+                  <li><a href="./views/Volunteer/sponsorship.html">Sponsorluk</a></li>
+                  <li><a href="./views/Volunteer/userform.html">Kullanıcı Formu</a></li>
                 </ul>
               </li>
               <li class="has-sub">
@@ -167,7 +168,7 @@
 <!-- ***** Main Banner Area Start ***** -->
 <section class="section main-banner" id="top" data-section="section1">
   <video autoplay muted loop id="bg-video">
-    <source src="/images/teknikhane.mp4" type="video/mp4" />
+    <source src="./images/teknikhane.mp4" type="video/mp4" />
   </video>
 
   <div class="video-overlay header-text">
@@ -842,7 +843,7 @@
         <a href="index.html"><img src="./images/Footer_logo_white.png" style="width: 130px; height: auto;"></a>
       </div>
       <div class="footer-logo-name d-inline-flex p-2">
-        <a href="index.html"><img src="./images/Footer_Logo_Name.png" style="width: 350px; height: auto;"></a>
+        <a href="index.html"><img src="./images/Footer_Logo_Name.png" style="width: 300px; height: auto;"></a>
       </div>
     </div>
     <hr>
@@ -869,7 +870,7 @@
       </ul>
     </div>
   </div>
-  <div class="container">
+  <div class="container d-flex justify-content-center">
     <div class="row">
       <div class="footer-col">
         <ul>
@@ -895,7 +896,6 @@
                 Raporları</h5>
             </a></li>
         </ul>
-
       </div>
       <div class="footer-col">
         <div>
@@ -968,6 +968,9 @@
           <li><a href="./views/Volunteer/sponsorship.html">
               <h5>Sponsorluk</h5>
             </a></li>
+          <li><a href="./views/Volunteer/userform.html">
+              <h5>Kullanıcı Formu</h5>
+            </a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -1023,7 +1026,7 @@
       $('body, html').animate({
         scrollTop: reqSectionPos
       },
-        800);
+        300);
     } else {
       $('body, html').scrollTop(reqSectionPos);
     }
@@ -1034,7 +1037,7 @@
     $('.section').each(function () {
       var
         $this = $(this),
-        topEdge = $this.offset().top - 80,
+        topEdge = $this.offset().top - 90,
         bottomEdge = topEdge + $this.height(),
         wScroll = $(window).scrollTop();
       if (topEdge < wScroll && bottomEdge > wScroll) {
