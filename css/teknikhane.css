@@ -290,9 +290,10 @@ header
 */
 
 .sub-header {
-  background-color: #1f272b;
+  background-color: #1F262E;
   position: relative;
   z-index: 1111;
+
 }
 
 .sub-header .left-content p {
@@ -327,7 +328,7 @@ header
 }
 
 .background-header {
-  background-color: #fff !important;
+  background-color: #1F262E !important;
   height: 80px !important;
   position: fixed !important;
   top: 0 !important;
@@ -337,12 +338,12 @@ header
 }
 
 .background-header .main-nav .nav li a {
-  color: #1e1e1e !important;
+  color: #f9f9f9 !important;
 }
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e !important;
+  color: #ffffff !important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -458,7 +459,7 @@ header
 }
 
 .background-header .main-nav .nav li.has-sub:after {
-  color: #1e1e1e;
+  color: #ffffff;
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -632,7 +633,8 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 90px;
+  background-color: #1F262E;
 }
 
 .header-area .nav {
