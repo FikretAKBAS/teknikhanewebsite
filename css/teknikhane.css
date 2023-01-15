@@ -203,7 +203,7 @@ global styles
 */
 html,
 body {
-  background-image: url(/images/teknikhanebgcolor4.jpeg);
+  background-image: url(../images/teknikhanebgcolor4.jpeg);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -1371,7 +1371,7 @@ our facts
 
 section.our-facts {
   background-color: #000000;
-  background-image: url(/images/teknikhanebgcolor4.jpeg);
+  background-image: url(../images/teknikhanebgcolor4.jpeg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
