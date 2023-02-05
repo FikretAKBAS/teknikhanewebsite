@@ -572,7 +572,7 @@ header
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #1e1e1e;
+  background-color: #ffffff;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -613,7 +613,7 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #1e1e1e;
+  background-color: #ffffff;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
@@ -625,7 +625,7 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #1e1e1e;
+  background-color: #ffffff;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
@@ -2145,8 +2145,8 @@ responsive
     justify-content: center;
   }
 
-  .header-area .menu-trigger {
+  /* .header-area .menu-trigger {
     margin-right: -0.5rem;
     margin-top: 0.3rem;
-  }
+  } */
 }
