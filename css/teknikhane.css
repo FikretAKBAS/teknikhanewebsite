@@ -304,7 +304,7 @@ header
 
 .sub-header .right-icons {
   text-align: right;
-  padding: 8px 0px;
+
 }
 
 .sub-header .right-icons ul li {
@@ -541,7 +541,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   width: 30px;
@@ -552,7 +552,7 @@ header
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #1e1e1e;
+  background-color: #ffffff;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -561,7 +561,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   width: 30px;
@@ -730,6 +730,7 @@ header
     border: none !important;
     background: #f7f7f7 !important;
     color: #191a20 !important;
+
   }
 
   .header-area .main-nav .nav li a:hover {
@@ -2011,12 +2012,11 @@ responsive
   }
 
   .sub-header .right-icons {
-    width: 400px;
+    width: 25rem;
+    height: 3.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    margin-left: -4.0rem;
     margin-top: -0.75rem;
   }
 
@@ -2098,5 +2098,55 @@ responsive
 @media(max-width:574px) {
   .footer-col {
     width: 100%;
+  }
+}
+
+
+
+/* @media(max-width:320px) {
+  .right-icons {
+    margin-left: -8rem;
+  }
+
+  .head-logo {
+    width: 14rem;
+    height: 2rem;
+    margin-top: 1.6rem;
+    margin-left: -5rem;
+  }
+
+  .right-icons .fa {
+    font-size: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .header-area .menu-trigger {
+    margin-right: -1rem;
+    margin-top: 0.3rem;
+  }
+} */
+
+@media(max-width:425px) {
+  .right-icons {
+    margin-left: -7rem;
+  }
+
+  .head-logo {
+    width: 16rem;
+    height: 2.4rem;
+    margin-top: 1.5rem;
+    margin-left: -2rem;
+  }
+
+  .right-icons .fa {
+    font-size: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .header-area .menu-trigger {
+    margin-right: -0.5rem;
+    margin-top: 0.3rem;
   }
 }
