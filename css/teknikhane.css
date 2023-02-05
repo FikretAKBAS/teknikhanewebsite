@@ -1575,13 +1575,14 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/meeting-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .7)), url(../images/bridge-1635387.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 230px;
   padding-bottom: 110px;
   text-align: center;
+  border-bottom: 1px solid rgb(87, 85, 85);
 }
 
 section.heading-page h6 {
@@ -2145,8 +2146,8 @@ responsive
     justify-content: center;
   }
 
-  /* .header-area .menu-trigger {
+  .header-area .menu-trigger {
     margin-right: -0.5rem;
     margin-top: 0.3rem;
-  } */
+  }
 }

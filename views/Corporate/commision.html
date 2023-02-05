@@ -9,7 +9,7 @@
   <meta name="author" content="Teknikhane Derneği">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-  <title>Hakkımızda</title>
+  <title>Yönetim Kurulu</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -209,8 +209,7 @@ https://templatemo.com/tm-569-edu-meeting
                         <h4>Sosyal Medya Hesaplarımız</h4>
                         <ul>
                           <li>
-                            <a href="https://tr-tr.facebook.com/teknikhaneder/"><i
-                                class="fa fa-facebook fa-2x px-4"></i></a>
+                            <a href="https://tr-tr.facebook.com/teknikhaneder/"><i class="fa fa-facebook fa-2x px-4"></i></a>
                           </li>
                           <li>
                             <a href="https://twitter.com/teknikhaneder"><i class="fa fa-twitter fa-2x px-4"></i></a>
@@ -219,8 +218,7 @@ https://templatemo.com/tm-569-edu-meeting
                             <a href="https://github.com/teknikhaneder"><i class="fa fa-github fa-2x px-4"></i></a>
                           </li>
                           <li>
-                            <a href="https://pk.linkedin.com/company/teknikhaneder"><i
-                                class="fa fa-linkedin fa-2x px-4"></i></a>
+                            <a href="https://pk.linkedin.com/company/teknikhaneder"><i class="fa fa-linkedin fa-2x px-4"></i></a>
                           </li>
                         </ul>
                       </div>
@@ -425,8 +423,8 @@ https://templatemo.com/tm-569-edu-meeting
 
       if (isAnimate) {
         $('body, html').animate({
-          scrollTop: reqSectionPos
-        },
+            scrollTop: reqSectionPos
+          },
           800);
       } else {
         $('body, html').scrollTop(reqSectionPos);
@@ -435,7 +433,7 @@ https://templatemo.com/tm-569-edu-meeting
     };
 
     var checkSection = function checkSection() {
-      $('.section').each(function () {
+      $('.section').each(function() {
         var
           $this = $(this),
           topEdge = $this.offset().top - 80,
@@ -446,17 +444,17 @@ https://templatemo.com/tm-569-edu-meeting
             currentId = $this.data('section'),
             reqLink = $('a').filter('[href*=\\#' + currentId + ']');
           reqLink.closest('li').addClass('active').
-            siblings().removeClass('active');
+          siblings().removeClass('active');
         }
       });
     };
 
-    $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+    $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function(e) {
       e.preventDefault();
       showSection($(this).attr('href'), true);
     });
 
-    $(window).scroll(function () {
+    $(window).scroll(function() {
       checkSection();
     });
   </script>
